@@ -38,7 +38,9 @@ struct ContentView: View {
                     
                 }
             }
+            .ignoresSafeArea(.all)
         }
+        
     }
 }
 
